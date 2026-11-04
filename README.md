@@ -1,1 +1,8 @@
-# ism2411-lab11
+**Name:** Ethan Kelby
+## How to Run
+
+From this folder:
+
+```
+python3 customers.py
+```
