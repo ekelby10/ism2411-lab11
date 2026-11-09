@@ -87,5 +87,6 @@ for sale in transactions:
 
 for region in sorted(sales_by_region):
     print(f"{region}: {sales_by_region[region]}")
-
-#
+print("---Reflection---")
+## 1. I use bracket notation when a key should always exist because it raises an error if data is missing. I use .get() when a key might be missing because it safely returns a default value instead of crashing the program.
+# 2. Building a summary dictionary is similar to using PivotTables or COUNTIF/SUMIF formulas in Excel because both summarize data by category. Python is more useful for large datasets because it can automate the process and handle much more data with less manual work.
